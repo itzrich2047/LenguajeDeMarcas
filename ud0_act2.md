@@ -1,6 +1,6 @@
 
 <dam>
- <modulo><titulo>Lenguaje de Marcas</titulo>
+ <modulo><titulo>Lenguaje de Marcas</titulo>:
  <contenido>
 
 <unidad>Introducción</unidad>,
@@ -10,9 +10,9 @@
  </contenido>
  </modulo>
 
- <modulo><titulo>Programación</titulo>
+ <modulo><titulo>Programación</titulo>:
  <contenido>
-  
+ 
 <unidad>introducción a la Programación</unidad>,
 <unidad>Condicionales y Bucles</unidad>,
 <unidad>Estructuras de datos</unidad>,
@@ -21,7 +21,7 @@
  </contenido>
  </modulo>
 
- <modulo><titulo>Base de Datos</titulo>
+ <modulo><titulo>Base de Datos</titulo>:
  <contenido>
 
 <unidad>Introducción a las Bases de Datos</unidad>,
