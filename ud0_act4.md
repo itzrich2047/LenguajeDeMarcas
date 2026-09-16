@@ -28,7 +28,7 @@
         <editorial>PUNTO DE LECTURA</editorial>,
         <año>2024</año>,
         <descripción>La heróica aventura de quienes se atrevieron a cambiar el mundo con libros. En tiempos de oscuridad siempre hubo
-        hombres buenos que lucharon para llevar las luces y el progreso. Y otros que procuraron impedirlo.</descripción>.
+        hombres buenos que lucharon para llevar las luces y el progreso. Y otros que procuraron impedirlo.</descripción>
   </libro>
 
 </libros>
