@@ -10,43 +10,46 @@ Por lo que concluímos, que es importante la extensión del archivo para que ind
 
 <h3>Ejercicio 2</h3>
 
+```
 <dam>
- <modulo><titulo>Lenguaje de Marcas</titulo>:
- <contenido>
+  <modulo><titulo>Lenguaje de Marcas</titulo>:
+    <contenido>
 
-<unidad>Introducción</unidad>,
-<unidad>HTML</unidad>,
-<unidad>CSS</unidad>,
-<unidad>Javascrpit</unidad>.
- </contenido>
- </modulo>
+     <unidad>Introducción</unidad>,
+     <unidad>HTML</unidad>,
+     <unidad>CSS</unidad>,
+     <unidad>Javascrpit</unidad>.
+    </contenido>
+  </modulo>
 
- <modulo><titulo>Programación</titulo>:
- <contenido>
+  <modulo><titulo>Programación</titulo>:
+    <contenido>
  
-<unidad>introducción a la Programación</unidad>,
-<unidad>Condicionales y Bucles</unidad>,
-<unidad>Estructuras de datos</unidad>,
-<unidad>Programación modular</unidad>.
+     <unidad>introducción a la Programación</unidad>,
+     <unidad>Condicionales y Bucles</unidad>,
+     <unidad>Estructuras de datos</unidad>,
+     <unidad>Programación modular</unidad>.
 
- </contenido>
- </modulo>
+    </contenido>
+  </modulo>
 
- <modulo><titulo>Base de Datos</titulo>:
- <contenido>
+  <modulo><titulo>Base de Datos</titulo>:
+    <contenido>
 
-<unidad>Introducción a las Bases de Datos</unidad>,
-<unidad>Modelo Entidad Relación</unidad>,
-<unidad>Modelo Relacional</unidad>,
-<unidad>Paso a tablas.Normalización</unidad>.
+     <unidad>Introducción a las Bases de Datos</unidad>,
+     <unidad>Modelo Entidad Relación</unidad>,
+     <unidad>Modelo Relacional</unidad>,
+     <unidad>Paso a tablas.Normalización</unidad>.
 
- </contenido>
- </modulo>
+    </contenido>
+  </modulo>
 
 </dam>
+```
 
 <h3>Ejercicio 3</h3>
 
+```
 <paises>
    <pais>
        <nombre>España</nombre><br>
@@ -63,10 +66,11 @@ Por lo que concluímos, que es importante la extensión del archivo para que ind
    </pais>
 </paises>
 
-
+```
 
 <h3>Ejercicio 4</h3>
 
+```
 <libros>
 
   <libro>
