@@ -1,0 +1,22 @@
+div.articulo h1 em {
+    color: orange;
+}
+
+li p {
+    background-color: lightgray;
+}
+
+.comentarios p{
+    border-left: 10px solid gray;
+}
+
+p.especial {
+    color: red;
+}
+
+/* Aquí hice la comprobación de que no afecta al <span> */
+
+span.especial {
+    color: green;
+}
+
