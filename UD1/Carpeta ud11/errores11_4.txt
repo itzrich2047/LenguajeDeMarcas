@@ -1,1 +1,8 @@
-
+Error 1: Falta la "l" de html, en el identificador de documento.
+Error 2: Faltan las "" y la "g" de language idioma español en el "lang=es"
+Error 3: Falta la codificación de texto.
+Error 4: Falta el final de la etiqueta <title>.
+Error 5: El <h1> final le falta cerrarlo con </h1>, por lo que se estaría volviendo a abrir.
+Error 6: La etiqueta <p> no esta bien anidada con la etiqueta <b>.
+Error 7: El siguiente párrafo no esta cerrado.
+Error 8: Las etiquetas de teléfono y email no están cerradas.
