@@ -1,0 +1,19 @@
+/*agrupación de selectores separados por comas+*/
+h1, h2 {
+   font-family: Arial, sans-serif;
+   font-size: 32px;
+   color: blue;
+}
+/* Agrupación de reglas para un mismo elemento: todo el estilo de p en una regla */
+p {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: cyan;
+ }
+
+ /* Selector de clase sustituye lo relacionado con el anterior pero solo para esta clase en específico.*/
+.propiedades {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: green;
+ }
