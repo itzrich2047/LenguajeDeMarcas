@@ -1,0 +1,22 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 32px;
+}
+
+h2 {
+    color : blue;
+}
+
+
+p {
+    text-align: justify;
+}
+
+/*PRUEBA DEL ORDEN DE LA REGLA UNIVERSAL:
+ Puse la regla "*" la primera, y luego la última, y el resultado no cambia, 
+ esto debido a que solo declara el font-family, y no hay otra regla que lo sobrescriba, por lo tanto, el orden no afecta. */
