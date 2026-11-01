@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        table {
+            border: 3px solid black;
+            border-spacing: 1px;
+        }
+
+        td {
+            border: 3px solid black;
+        }
+
+        th {
+            border: 3px solid black;
+        }
+
+        .primera_linea {
+            background-color: orange;
+        }
+
+        .segunda_línea {
+            background-color: aqua;
+        }
+
+        .tercera_línea {
+            background-color: yellow;
+        }
+        .elementos {
+            vertical-align:middle;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Tabla de tipos Pokémon</caption>
+        <thead>
+            <tr >
+                <th class="elementos" colspan="5">Tabla de tipos elementales</th>
+            </tr>
+            <tr>
+                <th>Tipos</th>
+                <th>Efectivo</th>
+                <th>Poco efectivo</th>
+                <th>Débil contra</th>
+                <th>inmune</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr class="primera_linea">
+                <td>Fuego</td>
+                <td>Bicho,Planta,<br>Hielo, Acero</td>
+                <td>Agua,Dragón,<br>Fuego,Roca</td>
+                <td>Tierra,Roca,<br>Agua</td>
+                <td>Bicho,Hada,Fuego,<br>Planta,Hielo,Acero</td>
+            </tr>
+            <tr class="segunda_línea">
+                <td>Agua</td>
+                <td>Fuego,Tierra,<br>Roca</td>
+                <td>Agua,Dragón,<br>Planta</td>
+                <td>Eléctrico,Planta</td>
+                <td>Fuego,Hielo,<br>Acaro,Planta</td>
+            </tr>
+            <tr class="tercera_línea">
+                <td>Eléctrico</td>
+                <td>Volador,Agua</td>
+                <td>Dragón,Eléctrico,Planta</td>
+                <td>Tierra</td>
+                <td>Eléctrico,Volador,<br>Acero</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr style="background-color: dimgray;">
+                <td>Normal</td>
+                <!--En esta línea no hay contenido porque no hay efectivos con el tipo normal, por lo que la mostramos, pero también la podríamos ocultar-->
+                <td style="empty-cells: show;"></td>
+                <td>Acero,Roca</td>
+                <td>Lucha</td>
+                <td>Fantasma</td>
+            </tr>
+
+        </tfoot>
+
+
+
+    </table>
+
+</body>
+
+</html>
