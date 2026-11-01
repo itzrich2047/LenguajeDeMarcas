@@ -1,0 +1,14 @@
+.ingredientes {
+    list-style-type: square;
+}
+.elaboracion {
+    list-style-type: upper-roman;
+}
+.utensilios {
+    list-style-type: circle;
+}
+
+h4 {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
