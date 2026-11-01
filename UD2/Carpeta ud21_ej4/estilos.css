@@ -1,0 +1,15 @@
+#corp {
+    color: red;
+    text-align: center;
+}
+
+.corp {
+    color:blue;
+}
+
+a[target] {
+    color: green;
+}
+p[class] {
+    background-color: lightgray;
+}
