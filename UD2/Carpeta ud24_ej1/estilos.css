@@ -1,0 +1,39 @@
+.pagina {
+    width: 800px;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 20px;
+}
+.cabecera {
+    background-color: darksalmon;
+    text-align: center;
+}
+.contenido {
+    background-color: lightblue;
+    display: flex;
+}
+.pie {
+    background-color: aquamarine;
+    text-align: center;
+}
+.tarjeta {
+    width: 200px;
+    padding: 15px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 8px;
+   
+}
+.etiqueta {
+    background-color: goldenrod;
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    display: inline-block;
+}
+/* Aqui desaparece la tercera tarjeta 
+.tarjeta:nth-child(3) {
+    display:none;
+
+}
+*/
