@@ -1,0 +1,16 @@
+nav {
+    /* En la siguiente línea si ponemos fixed vemos como pilla fijo el nav*/
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: cyan;
+}
+a[href="#arriba"] {
+    padding: 10px;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: cyan;
+
+}
