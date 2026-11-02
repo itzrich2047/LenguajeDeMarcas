@@ -1,0 +1,31 @@
+.contenedor{
+    border: 300px solid black;
+    width: 300px;
+    position: relative;
+    /*el c3 se posiciona respecto a este contenedor, porque es el primer padre con posición relativa
+    los demás se posicionan respecto a este contenedor*/
+}
+.cuadro {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.c1 {
+    left: 50px;
+    /*no se mueve, porque no tiene posición relativa ni absoluta*/
+    z-index: 2;
+}
+.c2 {
+    position: relative;
+    top: -40px;
+    left: 50px;
+    z-index: 2;
+}
+
+.c3 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    /*esquina superior derecha*/
+}
