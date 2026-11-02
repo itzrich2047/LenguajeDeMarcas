@@ -1,0 +1,14 @@
+body {
+    background-color: darksalmon;
+}
+table {
+    width: 25%;
+    border-collapse: collapse;
+}
+td {
+    border: 2px solid white;
+    padding: 4px;
+}
+.centro {
+    text-align: center;
+}
