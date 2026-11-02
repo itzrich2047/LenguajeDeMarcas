@@ -1,0 +1,72 @@
+.contenedor-tarjetas {
+    display: flex;
+    gap: 5px;
+}
+
+.tarjeta {
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.tarjeta2 {
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    /*quitar la siguiente línea para ver la tarjeta*/
+    display: none;
+}
+
+.foto2 {
+    background-color: blue;
+    height: 140px;
+    border-radius: 8px;
+}
+
+.etiqueta2 {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    background-color: red;
+}
+
+.etiqueta {
+    /*modificado en realidad sería -10px en las dos siguientes líneas */
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    background-color: red;
+}
+
+.foto {
+    background-color: blue;
+    height: 140px;
+    border-radius: 8px;
+}
+
+.comentario {
+    width: 300px;
+    height: 120px;
+    margin: 10px;
+    border: 1px solid black;
+    overflow: auto;
+    background-color: aqua;
+
+}
+
+.comentario p {
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
