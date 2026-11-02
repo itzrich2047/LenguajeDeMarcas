@@ -1,0 +1,22 @@
+/* Aquí probamos con inside donde las estrellas/viñetas
+ están más a la derechha
+ ul {
+    list-style-image: url(img/estrella.png);
+    list-style-position: inside;
+}*/
+
+/* Aquí probamos con outside donde las estrellas/viñetas
+ están más pegadas a la izquierda
+ul {
+    list-style-image: url(img/estrella.png);
+    list-style-position: outside;
+} */
+
+ul {
+/* Escritura abreviada: tipo de respaldo (por si la imagen no carga), posición e imagen.
+     Me quedo con outside porque se lee mejor. */
+    list-style: square outside url(img/estrella.png);
+}
+
+/*La diferencia es que inside hace que la estrella forma parte del texto, mientras que outside la estrella queda fuera y todas las líneas del texto quedan alineadas.
+*/
