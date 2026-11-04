@@ -113,6 +113,7 @@ article:nth-child(6) {
 footer {
     text-align: center;
     background-color: #eee;
+    
 }
 footer img{
     width: 40px;
@@ -122,5 +123,12 @@ footer img{
 
 footer img:hover {
     transform: scale(1.2); 
+}
+
+.lolo {
+    text-align: center;
+    background-color: #eee;
+    margin-top: 5px;
+    font-size: small;
 }
 
