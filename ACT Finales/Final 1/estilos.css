@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,700");
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+header {
+    background-color: #eee;
+    padding: 15px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.logo-izq {
+    float: left;
+    width: 110px;
+}
+
+.logo-der {
+    float: right;
+    width: 110px;
+}
+
+.titulos {
+    text-align: center;
+}
+
+h1 {
+    color: darkred;
+    margin: 0;
+}
+
+div h2 {
+    color: darkgreen;
+    margin: 0;
+}
+
+nav {
+    background-color: #eee;
+    text-align: center;
+    margin-top: 8px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+}
+
+nav li:hover {
+    color: red;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+
+section {
+    margin-bottom: 8px;
+}
+
+article {
+    display: inline-block;
+    vertical-align: top;
+    width: 32%;
+    height: 250px;
+    margin: 1px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+article img {
+    float:left;
+    width: 70px;
+    margin-right:10px;
+    transition: transform 0.3s;
+}
+
+article img:hover {
+    transform: scale(1.2);
+}
+
+article:nth-child(1) {
+    background-color: rgba(162, 179, 188, 0.5);
+}
+
+article:nth-child(2) {
+    background-color: rgba(241, 151, 79, 0.5);
+}
+
+article:nth-child(3) {
+    background-color: rgba(208,61,107,0.5)
+}
+
+article:nth-child(4) {
+    background-color: rgba(195, 23, 65, 0.5);
+}
+
+article:nth-child(5) {
+    background-color: rgba(109, 104, 166, 0.5);
+}
+
+article:nth-child(6) {
+    background-color: rgba(156, 154, 203, 0.5);
+}
+
+footer {
+    text-align: center;
+    background-color: #eee;
+    
+}
+footer img{
+    width: 40px;
+    margin-right: 10px;
+    transition: transform 0.3s;
+}
+
+footer img:hover {
+    transform: scale(1.2); 
+}
+
+.lolo {
+    text-align: center;
+    background-color: #eee;
+    margin-top: 5px;
+    font-size: small;
+    border-top: 6px  solid white;
+}
